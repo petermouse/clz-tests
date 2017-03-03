@@ -6,10 +6,6 @@
 #include <assert.h>
 #include <omp.h>
 
-#if defined(recursive)
-#define clz(x) clz2(x,0)
-#endif
-
 #if defined(overload)
 #include "clz.hpp"
 #else

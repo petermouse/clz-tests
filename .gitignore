@@ -3,3 +3,7 @@ byte
 harley
 iteration
 recursive
+*.txt
+*.png
+*.swp
+*.o
