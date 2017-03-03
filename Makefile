@@ -44,7 +44,7 @@ harley: $(SRCS_common) harley.c clz.h
 		-o $@ -Dharley $(SRCS_common) 
 
 recursive: $(SRCS_common) recursive.c clz2.h
-	$(CC)  $(CFLAGS_common) $(CFLAGS_recursive) \
+	$(CC) $(CFLAGS_common) $(CFLAGS_recursive) \
 		-o $@ -Drecursive $(SRCS_common) 
 
 
